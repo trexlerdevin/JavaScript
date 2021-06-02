@@ -25,3 +25,4 @@ var d = d.fontcolor("purple"); // assigned var d a font color of pruple
 document.write(d + f); //concatenated variables d, and f
 
 document.write(3435 + 32445); //statement to perform expression and return sum of two numbers
+
