@@ -35,3 +35,4 @@ function count_function() { // nested function, function
         return starting_point;
     }
 }
+
