@@ -1,7 +1,7 @@
 var x = "hello"; // this is my global and local variable function
-
+var y = " General Kenobi, what a surprise...replied General Grievous";
 function global_and_local_variables() {
-    var y = " General Kenobi, what a surprise...replied General Grievous";
+    
     document.write(x + " there....greeted general Obi Wan Kenobi." + "<br>" + y);
 }
 
