@@ -23,7 +23,7 @@ html {
     width: 100%;
     font-size: 5rem;
     border: none;
-    background-color: black;
+    background-color: rgba(140, 141, 141, 0.789);
     color: white;
     text-align: right;
     padding-right: 20 px;
