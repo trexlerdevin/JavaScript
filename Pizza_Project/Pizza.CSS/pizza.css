@@ -24,6 +24,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
 .right {
     width: 200px;
     height: 200px;
