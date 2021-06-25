@@ -1,6 +1,7 @@
 html {
     font-size: 70%;
     box-sizing: border-box;
+    
 }
 
 *, *::before, *::after {
@@ -23,7 +24,7 @@ html {
     width: 100%;
     font-size: 5rem;
     border: none;
-    background-color: rgba(140, 141, 141, 0.789);
+    background-color: rgba(223, 17, 17, 0.789);
     color: white;
     text-align: right;
     padding-right: 20 px;
@@ -60,7 +61,7 @@ button:hover {
 }
 
 .all-clear:hover {
-    background-color: darkred;
+    background-color: rgb(9, 8, 8);
 }
 
 .equal-sign {
