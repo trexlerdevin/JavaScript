@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--this is the google api that allows users browsers to interpret and display jquery-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+</head>
+<body>
+    <script>
+        // this jquery function targets the html documents <body> , <div id = 'container'> , <div id ="inner"
+        // <h1> , and <p> tags
+        $(document).ready(function() {
+            $("html").append(
+                "<body>\
+                    <div id ='container'>\
+                        <div id ='inner'>\
+                            <h1>Basic JQUERY</h1>\
+                            <p id='1'>Paragragh 1</p>\
+                            <p id='2'>Paragragh 2</p>\
+                            <p id='3'>Paragragh 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+
+            // this performs the actions on the <p> tags 
+            $("#2").css({"color":"red"});
+            $("#3").click(function() {
+                $('h1').hide();
+            });
+        });
+
+
+    </script>
+</body>
+</html>

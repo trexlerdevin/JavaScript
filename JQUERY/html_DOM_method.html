@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+
+        <p>hello there</p>
+
+        <p>i must go now</p>
+      
+         <script>
+        
+             // Event setup using a convenience method
+            $( "p" ).on({
+            "click":function() {console.log( "You clicked a paragraph!" ); },
+            "mouseover": function() {console.log("hovered");}
+            });
+             
+            // this is going to hide all <p> tags in 2 seconds
+            $("p").hide(2200);
+            
+            // adds an event listener that listens for a "click" event that 
+            // will then call the specified function
+            document.addEventListener("click", thisFunction);
+            document.addEventListener("click", thatFunction);
+            document.addEventListener("click", otherFunction);
+
+            function otherFunction () {
+                $( "p" ).show(2000);
+            }
+
+             function thisFunction() {
+                 alert ("Hello there...")
+             }
+
+             function thatFunction() {
+                 alert ("General Kenobi....")
+             }
+
+          
+        </script> 
+
+    </body>
+</html>
