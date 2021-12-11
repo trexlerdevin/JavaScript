@@ -9,6 +9,7 @@ body {
   
   .row > .column {
     padding: 0 8px;
+    display: none;
   }
   
   .row:after {
