@@ -73,7 +73,7 @@ const app = {
             }&deg;F</p>
                     <p class="card-text">High Feels like ${
                       day.feels_like.day
-                    }&deg;C</p>
+                    }&deg;F</p>
                     <p class="card-text">Pressure ${day.pressure}mb</p>
                     <p class="card-text">Humidity ${day.humidity}%</p>
                     <p class="card-text">UV Index ${day.uvi}</p>
