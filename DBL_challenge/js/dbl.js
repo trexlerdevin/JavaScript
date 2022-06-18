@@ -1,3 +1,3 @@
 function dbl_click() {
-    document.getElementById('dbl').style.color ="purple";
+    document.getElementById('dbl').style.color ="white";
 }

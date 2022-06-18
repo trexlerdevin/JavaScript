@@ -93,6 +93,5 @@ const app = {
         .join(' ');
     },
   };
-  
   app.init();
   
