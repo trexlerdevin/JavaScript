@@ -1,14 +1,15 @@
 var A = " this is a string."; //assigning variable "A" a value of " this is a string"
 var A = A.fontcolor("red"); //assigning variable A font color red
 
-var x = "So You have chosen to join the debate.", z = " or have you have chosen incorrectly"; // assigned variable x a value 
+var x = "So You have chosen to join the debate."; // assigned variable x a value 
+var z = " or have you have chosen incorrectly"; // assigned variable z a value
 
 window.alert(x); //added window alert for variable x
+window.alert(z); // added window alert for variable z
 
 var blues = "I have the ", feeling = " blues"; //assigned variable blues and feeling a string value
 var feeling = feeling.fontcolor("blue"); //assigned variable feeling a font color blue
 document.write(blues,feeling); //document write statement for vaiables blues and feeling
-
 
 
 document.write(A); //statement to write var A
